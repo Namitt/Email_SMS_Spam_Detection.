@@ -1,10 +1,10 @@
 # Email / SMS Spam Detection
  
-A machine learning classifier that distinguishes spam from legitimate (ham) messages. The project runs a full NLP pipeline — cleaning, EDA, text preprocessing, TF-IDF vectorization — and benchmarks eleven classifiers before combining the strongest into ensemble models. The final TF-IDF vectorizer and model are serialized for deployment.
+A machine learning classifier that distinguishes spam from legitimate (ham) messages. The project runs a full NLP pipeline - cleaning, EDA, text preprocessing, TF-IDF vectorization, and benchmarks eleven classifiers before combining the strongest into ensemble models. The final TF-IDF vectorizer and model are serialized for deployment.
  
 ## Overview
  
-Spam filtering is a classic binary text-classification problem where **precision matters more than raw accuracy** — wrongly flagging a real message as spam is costly. This project prioritizes precision when comparing models and selects Multinomial Naive Bayes for its strong precision on TF-IDF features.
+Spam filtering is a classic binary text-classification problem where **precision matters more than raw accuracy** , wrongly flagging a real message as spam is costly. This project prioritizes precision when comparing models and selects Multinomial Naive Bayes for its strong precision on TF-IDF features.
  
 ## Dataset
  
